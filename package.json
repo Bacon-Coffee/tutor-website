@@ -1,0 +1,16 @@
+{
+  "name": "tutor-booking",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w server",
+    "test": "npm test -w server",
+    "build": "npm run build -w server",
+    "seed": "npm run seed -w server",
+    "rotate-token": "npm run rotate-token -w server"
+  }
+}
